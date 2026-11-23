@@ -1,0 +1,12 @@
+|                                         |   Baseline (no tools) |   Optimly agent |
+|:----------------------------------------|----------------------:|----------------:|
+| Accuracy on answerable (%)              |               42.1    |        100      |
+| Made-up facts rate, all Qs (%)          |               30      |          0      |
+| Wrong answers, all Qs (%)               |               35      |          2.5    |
+| Correct 'I don't know' (not in data, %) |               22.2    |        100      |
+| Ambiguity handled (%)                   |                0      |         80      |
+| False premise handled (%)               |               57.1    |        100      |
+| Over-abstained on answerable (%)        |                0      |          0      |
+| Avg latency (s)                         |                1.68   |          4.34   |
+| Avg tokens / question                   |              414      |       5483      |
+| Avg cost / question (USD)               |                0.0001 |          0.0009 |
